@@ -60,3 +60,14 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+
+# Local data
+*.db
+data
+
+# Credentials / configuration
+*-credentials.json
+*-config.json
+
+# Virtual environment
+venv
