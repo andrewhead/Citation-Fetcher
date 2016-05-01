@@ -10,7 +10,8 @@ Scripts to fetch and transform data related to academic data.
 
 Here's a command for fetching citations counts for papers specified in `queries.json`.
 In the file, specify each query with two keys: `year` and `title`.
-The `title` key can be a prefix of the actual title and should be all lower case.
+The `title` key can be a prefix of the actual title.
+In our experience, it should be all lower case, and all punctuation should be removed for the search for that paper to be successful.
 
     python data.py fetch citation_counts queries.json microsoft-config.json
 
