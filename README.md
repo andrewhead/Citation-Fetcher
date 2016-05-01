@@ -1,4 +1,4 @@
-# Package-Qualifiers
+# Publication Data Fetcher
 
 Scripts to fetch and transform data related to academic data.
 
